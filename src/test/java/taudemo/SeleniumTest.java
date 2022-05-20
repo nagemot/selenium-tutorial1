@@ -24,7 +24,7 @@ public class SeleniumTest {
 
     @BeforeAll
     public void beforeAll() {
-        driver = browserGetter.getChromeDriver();
+        driver = browserGetter.getDriver();
     }
 
     @AfterAll
